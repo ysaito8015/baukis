@@ -1,8 +1,8 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe String do
   describe '#<<' do
-    example '文字の追加' do
+    xexample '文字の追加' do
       s = "ABC"
       s << "D"
       expect(s.size).to eq(4)
