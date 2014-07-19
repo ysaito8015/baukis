@@ -25,8 +25,8 @@ div#wrapper {
             display: $wide;
             padding: $moderate 0;
           }
-          input[type='text'], input[type='passwprd'] {
-            padding: $wode;
+          input[type='text'], input[type='password'] {
+            padding: $wide;
             width: 400px - $wide * 4;
           }
           input[type='submit'] {
